@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import HeroBillboard from '@/components/sections/hero/HeroBillboard';
+import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
 import MediaSplitAbout from '@/components/sections/about/MediaSplitAbout';
 import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
 import TestimonialCardEleven from '@/components/sections/testimonial/TestimonialCardEleven';
@@ -39,7 +39,7 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroBillboard
+        <HeroBillboardRotatedCarousel
           title="Discover Curated Contemporary Art & Photography"
           description="Experience immersive exhibitions and exclusive collections from emerging and established artists in our carefully designed gallery spaces."
           tag="Gallery Studio"
@@ -47,9 +47,40 @@ export default function LandingPage() {
             { text: "Explore Gallery", href: "#gallery" },
             { text: "Book Visit", href: "#contact" }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986658904-k21doulk.jpg"
-          imageAlt="Modern gallery interior with artwork displays"
-          frameStyle="card"
+          carouselItems={[
+            {
+              id: "1",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986658904-k21doulk.jpg",
+              imageAlt: "Modern gallery interior with artwork displays"
+            },
+            {
+              id: "2",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986230724-fojp5c7a.jpg",
+              imageAlt: "Gallery studio workspace"
+            },
+            {
+              id: "3",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986234748-rxsmo3a0.jpg",
+              imageAlt: "Contemporary art exhibition"
+            },
+            {
+              id: "4",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986235739-lvfnic86.jpg",
+              imageAlt: "Photography exhibition space"
+            },
+            {
+              id: "5",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986236697-txfutzor.jpg",
+              imageAlt: "Gallery interior lighting"
+            },
+            {
+              id: "6",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765987322264-mnn0421n.jpg",
+              imageAlt: "Curated artwork display"
+            }
+          ]}
+          autoPlay={true}
+          autoPlayInterval={4000}
         />
       </div>
 
