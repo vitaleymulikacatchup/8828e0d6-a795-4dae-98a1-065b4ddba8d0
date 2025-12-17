@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import HeroLogoBillboardSplit from '@/components/sections/hero/HeroLogoBillboardSplit';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import MediaSplitAbout from '@/components/sections/about/MediaSplitAbout';
 import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
 import TestimonialCardEleven from '@/components/sections/testimonial/TestimonialCardEleven';
@@ -39,14 +39,14 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroLogoBillboardSplit
-          logoText="GALLERY STUDIO"
-          description="Discover curated contemporary art and photography from emerging and established artists. Experience immersive exhibitions and exclusive collections in our carefully designed gallery spaces."
+        <HeroBillboard
+          title="Discover Curated Contemporary Art & Photography"
+          description="Experience immersive exhibitions and exclusive collections from emerging and established artists in our carefully designed gallery spaces."
+          tag="Gallery Studio"
           buttons={[
             { text: "Explore Gallery", href: "#gallery" },
             { text: "Book Visit", href: "#contact" }
           ]}
-          layoutOrder="default"
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986658904-k21doulk.jpg"
           imageAlt="Modern gallery interior with artwork displays"
           frameStyle="card"
