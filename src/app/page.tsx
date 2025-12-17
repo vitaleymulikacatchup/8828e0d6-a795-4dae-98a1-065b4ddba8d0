@@ -129,7 +129,7 @@ export default function LandingPage() {
               id: "4",
               nameTitle: "Marcus Thompson, Creative Director",
               quote: "Every time I walk through these doors, I'm inspired. The curatorial direction is consistently excellent and the atmosphere is welcoming and sophisticated.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986237796-iw9nxaid.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765987322264-mnn0421n.jpg",
               imageAlt: "Marcus Thompson"
             }
           ]}
