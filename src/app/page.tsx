@@ -55,7 +55,7 @@ export default function LandingPage() {
             },
             {
               id: "2",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986230724-fojp5c7a.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765987827452-z5hqfoyk.jpg",
               imageAlt: "Gallery studio workspace"
             },
             {
