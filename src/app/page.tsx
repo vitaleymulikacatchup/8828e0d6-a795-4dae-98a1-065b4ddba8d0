@@ -47,7 +47,7 @@ export default function LandingPage() {
             { text: "Book Visit", href: "#contact" }
           ]}
           layoutOrder="default"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986227264-nxl1vrcy.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986658904-k21doulk.jpg"
           imageAlt="Modern gallery interior with artwork displays"
           frameStyle="card"
         />
