@@ -88,7 +88,7 @@ export default function LandingPage() {
         <MediaSplitAbout
           title="Our Gallery Philosophy"
           description="We are dedicated to showcasing exceptional contemporary art and photography. Our mission is to create meaningful connections between artists and art enthusiasts through carefully curated exhibitions, educational programs, and intimate gallery experiences. Every artwork tells a story, and we believe in creating spaces where those stories can be heard."
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1765986230724-fojp5c7a.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34yEatLQt6B9A82mZgfqKsKaLO9/uploaded-1763468560580-ojucj24c.jpg"
           imageAlt="Gallery studio workspace"
           buttons={[
             { text: "Learn More", href: "#" }
